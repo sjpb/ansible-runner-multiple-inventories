@@ -1,2 +1,2 @@
 ---
-ANSIBLE_CONFIG: /home/rocky/caas-runner/ansible.cfg
+ANSIBLE_INVENTORY: /home/rocky/caas-runner/default_inventory,/home/rocky/caas-runner/overrides
