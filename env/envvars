@@ -1,2 +1,2 @@
 ---
-ANSIBLE_INVENTORY: /home/rocky/caas-runner/default_inventory,/home/rocky/caas-runner/overrides
+ANSIBLE_INVENTORY: ../default_inventory,../overrides
