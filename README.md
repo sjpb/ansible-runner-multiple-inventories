@@ -26,3 +26,6 @@ Therefore running:
     (venv39) $ ansible-runner run . -p test.yml
 
 should show `myvar` as `baz`.
+
+
+It also provides `cli.py`, showing how the above test can be run from Python.
