@@ -4,3 +4,5 @@
   tasks:
     - debug:
         var: myvar
+    - debug:
+        var: ansible_inventory_sources

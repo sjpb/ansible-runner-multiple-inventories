@@ -29,3 +29,9 @@ should show `myvar` as `baz`.
 
 
 It also provides `cli.py`, showing how the above test can be run from Python.
+
+# Notes
+Futher experimentation shows that:
+- Empty `hosts` files are necessary in the inventory directories
+- If a directory `inventory/` exists (in the private data directory), runner ignores the ANSIBLE_INVENTORY variable.
+- Contrary to docs, using `ansible-runner run --inventory whatever` actually writes `whatever` to `inventory/hosts`, creating the file/directory if necessary!
